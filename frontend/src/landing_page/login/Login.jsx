@@ -88,7 +88,7 @@ function Login() {
         </div>
 
         <button type="submit" class="btn btn-outline-success">
-          SignUp
+          Login
         </button>
 
      
