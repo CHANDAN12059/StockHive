@@ -22,7 +22,7 @@ function App() {
   
   useEffect(()=>{
   
-    axios.get("http://localhost:8080/checkAuth", { withCredentials: true })
+    axios.get("https://stockhive-backend-do5f.onrender.com/checkAuth", { withCredentials: true })
     .then((res)=>{
       setIsLoggedIn(res.data.loggedIn);
       if(res.data.loggedIn){
