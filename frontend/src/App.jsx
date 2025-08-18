@@ -27,8 +27,7 @@ function App() {
           <Route path="*" element={<ErrorPage />}></Route>
         </Routes>
 
-        {/* <HomePage /> */}
-
+      
         <Footer />
       </BrowserRouter>
     </>

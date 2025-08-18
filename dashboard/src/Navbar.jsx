@@ -7,10 +7,10 @@ function Navbar({isLoggedIn}) {
 
 
 function handleLogout() {
-  axios.post("http://localhost:8080/logout", {}, { withCredentials: true })
+  axios.post("https://stockhive-backend-do5f.onrender.com/logout", {}, { withCredentials: true })
     .then((res) => {
       if (res.data.success) {
-        window.location.href = "http://localhost:5173"; 
+        window.location.href = "https://stock-hive-8ifi.vercel.app"; 
       }
     })
     .catch((err) => {
