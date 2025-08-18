@@ -18,7 +18,8 @@ const User=require("./Models/User");
 
 
 app.use(cors({
-  origin: ["http://localhost:5173", "http://localhost:5174"], 
+  origin: ["http://localhost:5173", "https://stock-hive-dashboard.vercel.app"],
+
   credentials: true
 }));
 
