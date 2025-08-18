@@ -8,7 +8,7 @@ function DashBoard({username}) {
           className="mt-3 mb-3"
           style={{ textAlign: "center", color: "#424242" }}
         >
-        <h3 style={{  fontWeight: "600"}}>Hi {username} ! </h3>
+        <h3 style={{  fontWeight: "600"}}>  Hi {username ? username : "User"}! </h3>
         </h2>
       </div>
 
