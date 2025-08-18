@@ -1,7 +1,7 @@
 // import Navbar from "../navbar";  
 import Footer from "../Footer";
 import OpenAccount from "../OpenAccount";
-import AWARDS from "./awards";
+import AWARDS from "./Awards";
 import Education from "./Education";
 import Hero from "./Hero";
 import Pricing from "./Pricing";
