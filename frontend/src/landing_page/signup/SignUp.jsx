@@ -48,7 +48,7 @@ function SignUp() {
       )
       .then((res) => {
         if (res.data.success) {
-          window.location.href = "https://stock-hive-dashboard.vercel.app/Dashboard";
+          window.location.href = "https://stock-hive-dashboard.vercel.app/DashBoard";
         } else {
           alert("Signup failed: " + res.data.message);
         }
