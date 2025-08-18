@@ -5,7 +5,7 @@ function Orders() {
   let [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:8080/allOrders").then((res) => {
+    axios.get("https://stockhive-backend-do5f.onrender.com/allOrders").then((res) => {
       setOrders(res.data);
     });
   }, []);

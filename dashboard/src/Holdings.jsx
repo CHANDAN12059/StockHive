@@ -46,7 +46,7 @@ holdings.map((e)=>{
 
 useEffect(()=>{
 
-axios.get("http://localhost:8080/allHoldings").then((res)=>{
+axios.get("https://stockhive-backend-do5f.onrender.com/allHoldings").then((res)=>{
   setHoldings(res.data);
 });
 

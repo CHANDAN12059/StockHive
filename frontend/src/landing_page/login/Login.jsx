@@ -32,7 +32,7 @@ function Login() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    axios.post("http://localhost:8080/login", { username, password }, { withCredentials: true })
+    axios.post("https://stockhive-backend-do5f.onrender.com/login", { username, password }, { withCredentials: true })
     .then(()=>{
         window.location.href = "http://localhost:5174/dashboard"
     })

@@ -9,7 +9,7 @@ let [positions,setPositions]=useState([]);
 
 useEffect(()=>{
 
-axios.get("http://localhost:8080/allPositions").then((res)=>{
+axios.get("https://stockhive-backend-do5f.onrender.com/allPositions").then((res)=>{
   setPositions(res.data);
 });
 

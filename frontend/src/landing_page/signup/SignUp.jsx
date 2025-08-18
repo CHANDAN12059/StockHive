@@ -42,7 +42,7 @@ function SignUp() {
 
     axios
       .post(
-        "http://localhost:8080/signup",
+        "https://stockhive-backend-do5f.onrender.com/signup",
         { email, username, password },
         { withCredentials: true }
       )
