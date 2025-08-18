@@ -3,7 +3,7 @@ function Education() {
     <div className="container">
       <div className="row mb-5" style={{display:"flex",alignItems:"center"}}>
         <div className="col">
-          <img src="/media/images/education.svg"></img>
+          <img src="media/images/education.svg"></img>
         </div>
 
         <div className="col">

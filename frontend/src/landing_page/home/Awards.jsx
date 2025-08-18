@@ -3,7 +3,7 @@ function AWARDS() {
     <div className="container mb-5">
       <div className="row">
         <img
-          src="public/media/images/largestBroker.svg"
+          src="media/images/largestBroker.svg"
           className="col-6 me-5"
           style={{ width: "40%" }}
         ></img>

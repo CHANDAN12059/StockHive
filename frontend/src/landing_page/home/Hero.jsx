@@ -8,7 +8,7 @@ function Hero() {
 
 
             <div className="row text-center">
-                <img src="public/media/images/main.png" className="mb-5" style={{width:"80%",margin:"0 auto",height:"20%"}}></img>
+                <img src="media/images/main.png" className="mb-5" style={{width:"80%",margin:"0 auto",height:"20%"}}></img>
 
                 <h1 style={{color:"#424242"}}   >Trade smart. Invest better.</h1>
 
