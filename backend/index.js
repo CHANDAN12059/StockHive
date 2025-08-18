@@ -26,9 +26,14 @@ app.use(cors({
 app.use(bodyParser.json());
 app.use(
   session({
-    secret: "stockhive-secret", 
+    secret: "stockhive-secret",
     resave: false,
     saveUninitialized: false,
+    cookie: {
+      httpOnly: true,
+      secure: true,  
+      sameSite: "none" 
+    }
   })
 );
 
