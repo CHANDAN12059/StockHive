@@ -34,7 +34,7 @@ function Login() {
     e.preventDefault();
     axios.post("https://stockhive-backend-do5f.onrender.com/login", { username, password }, { withCredentials: true })
     .then(()=>{
-        window.location.href = "https://stock-hive-dashboard.vercel.app"
+        window.location.href = "https://stock-hive-dashboard.vercel.app/DashBoard"
     })
     .catch(()=>{
         alert("Invalid credentials");
